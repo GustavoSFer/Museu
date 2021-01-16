@@ -1,0 +1,166 @@
+body {
+	font: 12px "lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+}
+
+#principal {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/* Configurando logo */
+#logo a {
+	width: 268px;
+	height: 40px;
+	display: block;
+	text-indent: -9999px;
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+}
+
+/* Configurando area de menu */
+nav ul {
+	float: right;
+	list-style: none;
+}
+nav ul li {
+	float: left;
+}
+
+nav ul a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 0.8em;
+	line-height: 1em;
+	color: #986513;
+}
+
+nav ul a:hover {
+	color: #FAFAFA;
+	border-bottom: 0.8px solid #6E6E6E;
+}
+
+
+/* Configurando area postagem e lateral */
+#area-postagem {
+	width: 710px;
+	float: left;
+	background: #F2F2F2;
+	margin-top: 30px;
+}
+
+#lateral {
+	width: 350px;
+	float: right;
+	background: #F2F2F2;
+	margin-top: 30px;
+}
+
+section {
+	margin-bottom: 10px;
+}
+
+#visita {
+	background: #cbc6b2;
+	padding-bottom: 30px;
+}
+#visita legend {
+	color: #986513;
+	padding: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+#visita label {
+	padding: 3px 3px 3px 10px;
+}
+
+#visita input {
+	width: 10em;
+}
+#visita #qtd {
+	width: 3em;
+}
+input#botao {
+	width: 95%;
+	height: 40px;
+	cursor: pointer;
+	background: #9c9173;
+	color: white;
+	margin: 10px 2.5px 10px 8px;
+}
+
+#galeria {
+	background: #eae4dc;
+	float: left;
+}
+
+section#galeria a {
+	background: url(../img/fundo-foto.png) no-repeat;
+	display: block;
+	float: left;
+	padding: 17px 13px 18px 15px;
+	margin: 10px 0 0 23px;
+}
+#galeria h3 {
+	font-size: 1.2em;
+	padding: 10px;
+	color: #986513; 
+	text-transform: uppercase;
+	margin: 0;
+}
+
+article {
+	padding: 7px;
+	margin-bottom: 5px;
+	width: 310px;
+	float: left;
+	background: #eae4dc;
+}
+
+article#conhecer {
+	margin-left: 10px;
+}
+
+article#mapa {
+	margin-left: 30px;
+}
+
+article#exposicoes {
+	margin-left: 10px;
+}
+
+article#historia {
+	margin-left: 30px;
+}
+
+#exposicoes a {
+	color: #1C1C1C;
+}
+#exposicoes a:hover {
+	color: #6E6E6E;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+footer#rodape {
+	background: #252217;
+	padding: 10px;
+}
+footer a {
+	color: #7e5614;
+}
+
+/* Configuração geral */
+a {
+	text-decoration: none;
+}
+h3 {
+	color: #986513;
+	text-transform: uppercase;
+}
+ul {
+	list-style: none;
+}
